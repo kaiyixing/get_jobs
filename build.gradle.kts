@@ -17,9 +17,9 @@ java {
 }
 
 repositories {
+    maven { url = uri("https://maven.aliyun.com/repository/public") }
+    maven { url = uri("https://maven.aliyun.com/repository/spring") }
     mavenCentral()
-    // 国内镜像可选：
-    // maven { url = uri("https://maven.aliyun.com/repository/public") }
 }
 
 dependencies {
